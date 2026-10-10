@@ -1,0 +1,40 @@
+# FastAPI Backend
+fastapi==0.139.0
+uvicorn==0.50.2
+
+# Database
+SQLAlchemy==2.0.51
+psycopg2-binary==2.9.12
+
+# Configuration and Validation
+pydantic-settings==2.14.2
+python-dotenv==1.2.2
+email-validator==2.3.0
+
+# Authentication and Password Hashing
+python-jose[cryptography]==3.5.0
+passlib==1.7.4
+bcrypt==4.0.1
+
+# File Upload and PDF Processing
+python-multipart==0.0.32
+PyMuPDF==1.28.2
+
+# AI / LLM Integration
+groq==0.37.1
+langchain-core==1.6.5
+langchain-groq==1.1.3
+langchain-text-splitters==1.1.2
+
+# Vector Database and Semantic Search
+chromadb==1.5.9
+langchain-chroma==1.1.0
+langchain-huggingface==1.2.2
+sentence-transformers==6.1.0
+
+# Hybrid Search
+rank-bm25==0.2.2
+
+# Testing
+pytest
+httpx==0.28.1
